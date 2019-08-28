@@ -1,0 +1,66 @@
+h2 {
+    background: #5BAFED;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+h4 {
+    background: #D8D6BB;
+    color:#41403D;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+.card-img-style {
+    width: 75px;
+    margin:auto;
+}
+
+.border-none {
+    border: none;
+}
+
+.color-test {
+    background: #D8D6BB;
+}
+
+.test {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-pos {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background: #5BAFED;
+    color:white;
+    font-weight: bold;
+}
+
+.messages {
+    width:70%;
+    text-align:center;
+    margin:auto;
+}
+
+.card-style {
+    width: 90%;
+    margin:auto;
+}
+
+.min-text {
+    color:#5B5C5D;
+}
+
+.text-aug {
+    font-size: 22px;
+}

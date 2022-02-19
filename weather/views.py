@@ -88,7 +88,7 @@ def index(request):
                 forecast_data['date'] = key
                 forecast_data['temp_min'] = round(min(day['temp_min'] for day in groups))
                 forecast_data['temp_max'] = round(max(day['temp_max'] for day in groups))
-                forecast_data['icon'] = [day['icon'] for day in groups if day['date_time'] == '11:00:00'][0]
+                forecast_data['icon'] = [day['icon'] for day in groups if day['date_time'] == '10:00:00'][0]
                 forecast_data['day_name'] = datetime.datetime.strptime(key, '%Y-%m-%d').strftime('%A')
                 weather_data_forecast.append(forecast_data)
 
